@@ -34,7 +34,7 @@ android {
     }
 
     defaultConfig {
-        applicationId = "com.screentimerewards.app"
+        applicationId = "us.kodair.allowanceally"
         minSdk = flutter.minSdkVersion
         targetSdk = flutter.targetSdkVersion
         versionCode = flutter.versionCode
