@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'core/theme/app_theme.dart';
 import 'screens/auth/login_screen.dart';
 
 void main() {
@@ -12,6 +13,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Screentime Rewards',
+      theme: AppTheme.lightTheme,
+      debugShowCheckedModeBanner: false,
       home: const LoginScreen(),
     );
   }

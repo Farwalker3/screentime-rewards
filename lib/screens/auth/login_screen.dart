@@ -3,7 +3,6 @@ import '../../core/theme/app_theme.dart';
 import '../../core/services/auth_service.dart';
 import '../../core/models/app_models.dart';
 import '../parent/parent_dashboard.dart';
-import 'package:provider/provider.dart';
 
 class LoginScreen extends StatefulWidget {
   const LoginScreen({super.key});
